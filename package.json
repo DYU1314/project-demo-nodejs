@@ -1,0 +1,28 @@
+{
+  "name": "project-demo-nodejs",
+  "version": "1.0.0",
+  "description": "Tự học node js",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resource/scss --output src/public/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoangDuy1998/project-demo-nodejs.git"
+  },
+  "author": "Lê Hoàng Duy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoangDuy1998/project-demo-nodejs/issues"
+  },
+  "homepage": "https://github.com/HoangDuy1998/project-demo-nodejs#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.2",
+    "morgan": "^1.10.0",
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
