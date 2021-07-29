@@ -19,9 +19,12 @@
     "url": "https://github.com/HoangDuy1998/project-demo-nodejs/issues"
   },
   "homepage": "https://github.com/HoangDuy1998/project-demo-nodejs#readme",
-  "devDependencies": {
+  "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2",
+    "mongoose": "^5.13.4"
+  },
+  "devDependencies": {
     "husky": "^7.0.1",
     "lint-staged": "^11.1.1",
     "morgan": "^1.10.0",
@@ -30,7 +33,7 @@
     "prettier": "^2.3.2"
   },
   "lint-staged": {
-    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --tab-width 2 --write"
+    "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --print-width 180 --tab-width 2 --write"
   },
   "husky": {
     "hooks": {
